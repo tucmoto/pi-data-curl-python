@@ -1,4 +1,5 @@
-from trackcurl import db
+from extensions import db
+
 
 class Repetition(db.Model):
     id = db.Column(db.Integer, primary_key=True)
